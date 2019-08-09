@@ -1,0 +1,78 @@
+@media (min-width: 450px) {
+    body {
+        width: 400px;
+    }
+}
+
+@media (max-width: 450px) {
+    body {
+        width: 90%;
+    }
+}
+
+body {
+    background: url(background.jpg);
+    background-repeat: no-repeat;
+    background-position: center top;
+    background-size: 100%;
+
+    font-family: 'Dosis', sans-serif;
+    font-size: 16px;
+    color: #797979;
+    text-align: center;
+
+    margin: 40px auto;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+
+h2 {
+    font-weight: normal;
+    color: #d783a1;
+}
+
+
+hr {
+    border-bottom: 1px dashed #d783a1;
+    width: 100%;
+    color: transparent;
+}
+
+.social-media-icon {
+    background: #d783a1;
+    border-radius: 3px;
+    vertical-align: middle;
+}
+
+ul {
+    list-style-type: none;
+    text-align: left;
+    margin-top: 0;
+}
+
+li {
+    padding-top: 5px;
+}
+
+a {
+    text-decoration: none;
+    color: rgb(215, 131, 161);
+    font-size: 15px;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+p {
+    margin-top: 0;
+}
+
+.language-switcher {
+    position: absolute;
+    top: 0;
+    left: 66%;
+}
